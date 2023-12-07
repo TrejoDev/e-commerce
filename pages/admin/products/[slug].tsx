@@ -11,7 +11,7 @@ import { styled } from '@mui/material/styles';
 import { AdminLayout } from '../../../components/layouts'
 import { IProduct } from '../../../interfaces';
 import { dbProducts } from '../../../database';
-import { tesloApi } from '@/api';
+import { tesloApi } from '@/axiosApi';
 import { Product } from '@/models';
 
 

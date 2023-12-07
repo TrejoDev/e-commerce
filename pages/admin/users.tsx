@@ -7,7 +7,7 @@ import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 
 import { AdminLayout } from '@/components/layouts'
 import { IUser } from '@/interfaces';
-import { tesloApi } from '@/api';
+import { tesloApi } from '@/axiosApi';
 
 const UsersPage = () => {
 
